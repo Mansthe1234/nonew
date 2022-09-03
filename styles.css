@@ -1,0 +1,114 @@
+*{
+    box-sizing: border-box;
+    font-family: inter, system-ui;
+}
+
+.nav__container {
+    width: 100%;
+    display: flex;
+    flex: 1 1 0%;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+
+} 
+
+.outside{
+    padding:32px ;
+}
+
+.purple {
+    color: #6415ff;
+}
+
+.Treact {
+    display: flex;
+    flex-direction: c;
+    font-weight: 900;
+    font-size: 1.5rem;
+    color: rgba(36,62,92);
+    position: relative;
+    
+}
+a{
+text-decoration: none;
+}
+
+nav {
+   
+    display: flex;
+}
+img{
+    width: 2.5rem;
+    margin-right: 0.75rem;
+}
+
+.nav__links {
+}
+
+.nav__link {
+    margin: 0 24px;
+    padding: 0 0 4px;
+    font-size: 14px;
+    color: #243e63;
+    font-weight: 600;
+    letter-spacing: 0.025em;
+    transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform;
+    transition-duration: 300ms;
+    padding-bottom: 0.25rem;
+    border-bottom-width: 2px;
+    border-color: transparent;
+}
+
+.nav__link:hover {
+    text-decoration: underline #6415ff ;
+    color: #6415ff;
+    
+    
+}
+.special__link {
+    border: none;
+    border-radius: 9999px;
+    color: white;
+    background-color: #6415ff;
+    padding: 12px 32px;
+}
+li {
+    list-style-type: none;
+}
+ul{
+    display: flex;
+    
+}
+
+
+.nav__logotext {
+    display: flex;
+}
+ 
+.buuti {
+    font-size: 48px;
+}
+
+
+.header{
+    padding: 96px 0px;
+}
+
+.left__side {
+    width: 1024px;
+    max-width: none;
+    text-align: left;
+}
+
+input{
+    border-width: 2px;
+    border-radius: 9999px;
+    padding-left: 32px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    width: 100%;
+    font-weight: 500;
+    transition-duration: 300ms;
+}
