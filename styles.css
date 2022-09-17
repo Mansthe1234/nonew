@@ -1,6 +1,7 @@
 * {
   box-sizing: border-box;
   font-family: inter, system-ui;
+  
 }
 *,
 :after,
@@ -21,6 +22,7 @@
 body {
   padding: 32px;
   margin: 0;
+  min-height: 100vh;
 }
 
 .first__img {
@@ -299,9 +301,8 @@ img {
   margin-right: auto;
   align-items: center;
   max-width: 1280px;
- 
   text-align: left;
-  margin: 0 46px;
+  margin: 0 auto;
 }
 .left__design{
 
@@ -311,7 +312,6 @@ position: relative;
 justify-content: center;
 align-items: center;
 margin: 0 auto;
-order: -9999;
 width: 50%;
 }
 .desk__div {
@@ -382,12 +382,25 @@ width: 50%;
   align-items: center;
   justify-content: space-between;
   flex-direction: row;
+   max-width: 1280px;
+  
 }
+
+.purple__rari {
+  font-weight: 900;
+}
+
 .easy_tgs {
   text-align: left;
   align-items: center;
   justify-content: center;
   position: relative;
+  margin-right:auto ;
+  margin-left: auto;
+ padding-top: 2px;
+ padding-bottom: 2px;
+ margin-left: 64px;
+ margin-top: 0;
 }
 
 .ul__idk {
@@ -398,4 +411,95 @@ width: 50%;
   text-align: left;
   margin-top: 16px;
   color: #243e63;
+  letter-spacing: 0.4px;
+  font-weight: 900;
+}
+
+.li__4th {
+display: flex;
+flex-direction: row;
+
+}
+
+.li__3 {
+  margin: 0 0 0 24px;
+}
+
+.numbers{
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 1;
+  color: #cbd5e0;
+}
+
+.first__h6 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1;
+  margin: 0px;
+}
+
+.li__p {
+  
+  max-width: 320px;
+  font-size: 14px;
+  color: #718096;
+  line-height: 2;
+  font-weight: 500;
+  margin: 12px 0 0;
+  
+}
+
+.img__getstarted {
+  width: 50%;
+  flex-shrink: 0;
+  max-width: none;
+}
+
+/*WE ABIDE OUR PRINCIPLES*/
+.abc {
+  position: relative;
+}
+
+.big__div{
+  flex-direction: row;
+  padding-top: 96px;
+  padding-bottom: 96px;
+  display: flex;
+  margin-left: 0 auto;
+  margin-right: 0 auto;
+  align-items: center;
+}
+
+
+.img__illu {
+  width: 50%;
+  position: relative;
+  flex-shrink: 0;
+}
+
+.left__bigprince{
+  order: -9000;
+  margin-right: 64px;
+  margin-left: 0px;
+  width: 50%;
+  margin-top: 0px;
+  max-width: none;
+}
+
+.left__prince {
+  text-align: left;
+  padding-bottom: 32px;
+  padding-bottom: 32px;
+}
+
+.h2__prince {
+  margin-top: 16px;
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 1.25;
+}
+
+.h5__left {
+  text-align: left;
 }
